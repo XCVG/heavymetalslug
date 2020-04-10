@@ -1,0 +1,11 @@
+Most of the stuff in here I made myself, but there are a few exceptions:
+
+* Treasure is adapted from a CC0 sprite from OpenGameArt (https://opengameart.org/content/treasure-chests-32x32-and-16x16)
+* Character select background is made from Freedoom textures, along with the P1/P2 select panels
+* ENDGAMEPIC is a render using a helmet and textures from OpenGameArt. This is documented in the main CREDITS file I think
+* POW voices were made with ttsreader using Google Chrome voices. Strictly speaking the resulting voice file should belong to me but the license terms are a little unclear.
+* The early unused portraits are made from photos. They're horrible and you shouldn't use them anyway.
+* The unused AlissaDie (https://freesound.org/people/xpoki/sounds/432763/) and SharonDie sounds (https://freesound.org/people/AderuMoro/sounds/264918/). There is no JoakimDie sound.
+* Music is from midimelody.ru and based on existing songs. Okay to share, I think, but commercial use is a definite no-no.
+
+Some characters are (loosely) based on living persons so keep that in mind if you're reusing stuff. The country flags may be protected as well.

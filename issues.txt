@@ -1,0 +1,26 @@
+POTENTIAL IMPROVEMENTS
+
+Better camera control- no "snap" when control is returned, allow restricting the player to going forward but not backward
+
+Implement player switching. You'll need to finish the sprites, too.
+
+Actual 2P mode
+
+Make player and a few other things prefabs
+
+For some reason, the camera moves in when the helicopter fight starts. I couldn't be bothered to debug this
+
+A high score system. One day I'll build a generalized one
+
+If you want to make the main menu accessible, you should make it presentable
+
+Pool the bullets
+
+
+KNOWN ISSUES
+
+The exit button doesn't work. Well, technically it works exactly as it's supposed to, exiting back to the main menu. Then the script that switches to the arcade-style start scene immediately fires, sending you back to the attract screen.
+
+Character selection doesn't do anything except change the music. Th
+
+Two-player isn't implemented.

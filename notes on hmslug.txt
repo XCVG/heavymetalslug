@@ -1,0 +1,20 @@
+HEAVY METAL SLUG source release
+initial release, 2020-04-10
+Chris Leclair aka XCVG
+https://xcvg.itch.io/hmslug
+
+Built with Unity 2018.4.20f1. A newer version of Unity 2018 LTS will probably work fine.
+
+You'll probably get a compile error because of the DevConsole 2 third-party dependency. To solve this, either download DevConsole from the Asset Store and put it in Assets/Plugins/DevConsole or delete Assets/CommonCoreModules/SickDevConsoleIntegration. It will probably warn if you do the latter but should fall back to the BasicConsole implementation.
+
+The Unity Post-Processing V2 stack and ProBuilder should be pulled in from packages just fine.
+
+The art folder contains a bunch of art assets, including some that aren't in the released game. These are licensed CC-BY 3.0 unless they're copied or derived from something else, but any that are should be obvious.
+
+The source code is licensed under the MIT License. This includes everything in the source folder that isn't auto-generated and isn't a third party asset with its own license. Practically, this means CommonCore code, game-specific scripts, scene files and data assets.
+
+If you need clarification or a formal statement on a certain file, contact me!
+
+If you're going to reuse this, you must give credit (this is stipulated by CC-BY and the MIT license)! You must also not misrepresent your derivative work as the original, or yourself as me (also, I believe, stipulated by both licenses). You can credit me as Chris Leclair or XCVG. I'd also appreciate a link to my website, xcvgsystems.com, and let me know if you do something cool with it.
+
+Finally, one last disclaimer: This package is provided without any warranty or any guarantee that it will be suitable for any purpose. Use at your own risk.

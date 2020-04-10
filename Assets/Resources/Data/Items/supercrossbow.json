@@ -1,0 +1,37 @@
+{
+  "supercrossbow": {
+    "model": {
+      "$type": "CommonCore.RpgGame.Rpg.RangedWeaponItemModel, Assembly-CSharp",
+      "Damage": 6,
+      "DamagePierce": 2,
+	  "ProjectileVelocity": 50,
+      "Spread": {
+		"min" : 2,
+		"max" : 2,
+		"gain" : 0,
+		"decay" : 0
+	  },
+      "FireInterval": 1,
+      "MagazineSize": 1,
+	  "NumProjectiles": 1,
+      "ReloadTime": 1.25,
+      "AType": "Bolt",
+      "DType": "Normal",
+      "FireEffect": "CrossbowEffect",
+	  "Projectile": "CrossbowBolt",
+      "ReloadEffect": "CrossbowDraw",
+	  "ViewModel": "Crossbow",
+      "Weight": 3,
+	  "Value": 50,
+      "MaxCondition": 1,
+      "Unique": false,
+      "Essential": false,
+	  "Flags": ["WeaponAutoReload", "WeaponTwoHanded"]
+    },
+    "def": {
+    "NiceName": "Super Crossbow",
+    "Image": "crossbow",
+    "Description": "A two-handed crossbow made of wood and steel."
+  }
+  }
+}

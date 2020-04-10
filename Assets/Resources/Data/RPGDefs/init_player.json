@@ -1,0 +1,156 @@
+{
+    "FormID": null,
+    "DisplayName": "Aurelia",
+    "Gender": "Female",
+    "Health": 110.0,
+    "HealthFraction": 1.0,
+	"EnergyFraction": 1.0,
+    "Experience": 0,
+    "Level": 1,
+    "BaseStats": {
+      "MaxHealth": 0.0,
+      "DamageResistance": {
+        "Normal": 0.0,
+        "Impact": 0.0,
+        "Explosive": 0.0,
+        "Energy": 0.0,
+        "Poison": 0.0,
+        "Thermal": 0.0,
+        "Radiation": 0.0
+      },
+      "DamageThreshold": {
+        "Normal": 0.0,
+        "Impact": 0.0,
+        "Explosive": 0.0,
+        "Energy": 0.0,
+        "Poison": 0.0,
+        "Thermal": 0.0,
+        "Radiation": 0.0
+      },
+      "Stats": {
+        "Resilience": 3,
+        "Dexterity": 3,
+        "Erudition": 3,
+        "Intuition": 3,
+        "Dialectic": 3,
+        "Subterfuge": 3,
+        "Serendipity": 3
+      },
+      "Skills": {
+        "Melee": 10,
+        "MeleeAlacrity": 10,
+        "MeleePrecision": 10,
+        "MeleeBrawn": 10,
+        "Archery": 10,
+        "ArcheryDraw": 10,
+        "ArcherySteady": 10,
+        "Guns": 10,
+        "GunsAccuracy": 10,
+        "GunsRapidity": 10,
+        "Athletics": 10,
+        "AthleticsFurtive": 10,
+        "AthleticsFleet": 10,
+        "Magic": 10,
+        "MagicForce": 10,
+        "MagicElemental": 10,
+        "MagicDark": 10,
+        "Social": 10,
+        "SocialExchange": 10,
+        "SocialLeverage": 10,
+        "Security": 10,
+        "SecurityMechanisms": 10,
+        "SecurityComputers": 10
+      }
+    },
+    "Conditions": [],
+    "Inventory": {
+      "Items": [
+        {
+          "$id": "1",
+          "Quantity": 1,
+          "Condition": 1.0,
+          "Equipped": true,
+          "ItemModel": {
+            "$ItemModel": "lightarmor"
+          }
+        },
+        {
+          "Quantity": 1,
+          "Condition": 1.0,
+          "Equipped": false,
+          "ItemModel": {
+            "$ItemModel": "demosword"
+          }
+        },
+        {
+          "$id": "2",
+          "Quantity": 1,
+          "Condition": 1.0,
+          "Equipped": true,
+          "ItemModel": {
+            "$ItemModel": "demorifle"
+          }
+        },
+        {
+          "Quantity": 1,
+          "Condition": 1.0,
+          "Equipped": false,
+          "ItemModel": {
+            "$ItemModel": "medkit"
+          }
+        },
+        {
+          "Quantity": 50,
+          "Condition": 1.0,
+          "Equipped": false,
+          "ItemModel": {
+            "$ItemModel": "Gold"
+          }
+        },
+        {
+          "Quantity": 120,
+          "Condition": 1.0,
+          "Equipped": false,
+          "ItemModel": {
+            "$ItemModel": "Para9"
+          }
+        },
+        {
+          "Quantity": 360,
+          "Condition": 1.0,
+          "Equipped": false,
+          "ItemModel": {
+            "$ItemModel": "Nato556"
+          }
+        },
+		{
+          "Quantity": 1,
+          "Condition": 1.0,
+          "Equipped": false,
+          "ItemModel": {
+            "$ItemModel": "demopistol"
+          }
+        },
+		{
+          "Quantity": 1,
+          "Condition": 1.0,
+          "Equipped": false,
+          "ItemModel": {
+            "$ItemModel": "demospriteweapon"
+          }
+        }
+      ]
+    },
+  "AmmoInMagazine": {
+    "LeftWeapon": 0,
+    "RightWeapon": 30
+  },
+	"Equipped": {
+      "Body": {
+        "$ref": "1"
+      },
+      "RightWeapon": {
+        "$ref": "2"
+      }
+    }
+  }

@@ -1,0 +1,19 @@
+# Disable EOL conversions by default
+* -text
+
+## Unity ##
+
+*.cs diff=csharp text
+*.cginc text
+*.shader text
+*.txt text
+*.meta merge=unityyamlmerge text
+
+*.mat merge=unityyamlmerge
+*.anim merge=unityyamlmerge
+*.unity merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.physicsMaterial2D merge=unityyamlmerge
+*.physicsMaterial merge=unityyamlmerge
+*.asset merge=unityyamlmerge
+*.controller merge=unityyamlmerge

@@ -1,0 +1,11 @@
+Music is converted from MIDIs with foobar2000 and the MIDI player plugin (comes with foobar2000?)
+
+Use Nuclear Option (Nuked OPL) output with 44100hz sampling rate. Preset OPL3W, no soft panning.
+
+Don't loop or add 1s decay time.
+
+These aren't the best settings, just the ones I used. I didn't really have time to experiment more :(
+
+Use right-click->convert. I made a custom preset with output format: MP3 (LAME), 320kbps CBR and no processing. It doesn't really matter and in fact I transcoded later so pick whatever. Just no effects if you want to remain consistent.
+
+
